@@ -1,0 +1,34 @@
+/* Custom global styles using TailwindCSS utility classes */
+
+body {
+    @apply bg-gray-50 text-gray-900 font-sans leading-normal tracking-normal;
+  }
+  
+  .app-container {
+    @apply max-w-screen-lg mx-auto p-6;
+  }
+  
+  .weather-card {
+    @apply bg-white shadow-lg rounded-lg p-6 mt-8 text-center;
+  }
+  
+  .weather-card h2 {
+    @apply text-2xl font-bold mb-4 text-blue-800;
+  }
+  
+  .weather-card p {
+    @apply text-lg text-gray-700;
+  }
+  
+  .recent-searches {
+    @apply mt-8 p-4 bg-gray-200 rounded-lg;
+  }
+  
+  .recent-searches h3 {
+    @apply text-xl font-semibold mb-4;
+  }
+  
+  .recent-search-item {
+    @apply text-blue-500 hover:underline cursor-pointer mb-2;
+  }
+  
